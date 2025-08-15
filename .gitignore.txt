@@ -1,0 +1,38 @@
+```gitignore
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Build/outputs
+build/
+Builds/
+dist/
+output/
+cache/
+data/
+!data/.gitkeep
+
+# Vendor SDKs kept local
+third_party/*
+!third_party/.keep
+!third_party/README.md
+
+# LabVIEW project/user files (safe to ignore)
+*.aliases
+*.lvlps
+*.lvproj.bak
+*.tmp
+*.bak
+*.log
+*.lvproj\ Backup
+*.vi~*
+*.ctl~*
+
+# Packed/installer artifacts (if you generate them)
+*.rtexe
+*.nipkg
+*.exe
+*.zip
+*.7z
+
+# Git LFS metadata (if used) is handled by LFS itself

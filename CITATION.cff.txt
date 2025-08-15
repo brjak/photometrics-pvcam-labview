@@ -1,0 +1,12 @@
+# CITATION.cff
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "LabVIEW PVCAM SubVIs for Photometrics Prime95B"
+authors:
+  - family-names: "Grigoryev"
+    given-names: "Philipp"
+    orcid: "https://orcid.org/0000-0002-3349-062X"   # optional
+version: "1.0.0"
+date-released: "2025-08-15"
+url: "https://github.com/brjak/photometrics-pvcam-labview"
+license: "MIT"
